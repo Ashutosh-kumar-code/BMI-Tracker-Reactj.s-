@@ -1,0 +1,171 @@
+.homepage{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+  padding: 20px;
+}
+.midtop{
+  border-radius: 30px;
+  padding: 20px 50px;
+  /* border: 1px solid rgb(44, 44, 44); */
+  box-shadow: 3px 5px 8px gray;
+  background-image: linear-gradient(aqua,rgb(153, 153, 243)) ;
+}
+.topic{
+  font-weight: bold;
+}
+.topic img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 3px solid rgb(107, 106, 106);
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img{
+  height: 335px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.bmi-answer{
+  text-align: center;
+}
+.bmi-answer h3{
+  padding-top: 5px;
+  font-weight: 800;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bmians p{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 17px;
+  color: rgb(129, 64, 64);
+  animation: animate_w 2s linear infinite;
+}
+
+@keyframes animate_w{
+0%{
+  font-size: 18px;
+}
+50%{
+  font-size: 20px;
+}
+100%{
+  font-size: 18px;
+}
+}
+
+#inp2{
+  margin-bottom: 15px;
+}
+
+button{
+  box-shadow: 2px 3px 4px gray;
+
+}
+button:focus{
+  box-shadow: none;
+}
+
+.diet1{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.diet1 img{
+ 
+  height: 300px;
+  width: 300px;
+}
+
+.diet2{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.diet2 img{
+ 
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width:1400px) {
+  .midtop{
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+.diet1 img, .diet2 img{
+  height: 200px;
+  width: 200px;
+}
+.img-container img{  
+  height: 200px;
+  width: 200px;
+}
+.topic{
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width:992px) {
+  .topic{
+    text-align: center;
+  }
+.diet1{
+  display: none;
+} .diet2{
+  display: none;
+}
+
+.midtop{
+  margin-left: -150px;
+  width: 500px;
+}
+}
+
+@media screen and (max-width:665px) {
+  .midtop{
+    margin-left: -110px;
+    width: 380px;
+  }
+}
+
+@media screen and (max-width:510px) {
+  .midtop{
+    margin-left: -115px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:416px) {
+  .midtop{
+    margin-left: -100px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:362px) {
+  .midtop{
+    margin-left: -115px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:325px) {
+  .midtop{
+    margin-left: -118px;
+    width: 300px;
+  }
+}
